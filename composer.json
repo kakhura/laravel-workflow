@@ -1,15 +1,21 @@
 {
     "name": "kakhura/laravel-workflow",
     "description": "Integerate Symfony Workflow component into Laravel.",
-    "keywords": ["workflow", "symfony", "laravel", "laravel5", "laravel6"],
+    "keywords": [
+        "workflow",
+        "symfony",
+        "laravel",
+        "laravel5",
+        "laravel6"
+    ],
     "license": "MIT",
     "require": {
         "php": ">=5.5.9",
-        "symfony/workflow": "^3.3 || ^4.0 || ^5.0 || ^6.3",
-        "symfony/process": "^3.3 || ^4.0 || ^5.0 || ^6.3",
-        "symfony/event-dispatcher": "^3.3 || ^4.0 || ^5.0 || ^6.3",
-        "illuminate/console": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.* || 7.* || 8.* || 9.* || 10.*",
-        "illuminate/support": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.* || 7.* || 8.* || 9.* || 10.*"
+        "symfony/workflow": "^3.3 || ^4.0 || ^5.0 || ^6.3 || ^7.2",
+        "symfony/process": "^3.3 || ^4.0 || ^5.0 || ^6.3 || ^7.2",
+        "symfony/event-dispatcher": "^3.3 || ^4.0 || ^5.0 || ^6.3 || ^7.2",
+        "illuminate/console": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.* || 7.* || 8.* || 9.* || 10.* || 11.*",
+        "illuminate/support": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.* || 7.* || 8.* || 9.* || 10.* || 11.*"
     },
     "autoload": {
         "psr-4": {
